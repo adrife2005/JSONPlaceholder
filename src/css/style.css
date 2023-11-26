@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+
+#navbar .container {
+    width: 926px;
+    margin: 30px auto;
+}
+
+#navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand h2 {
+    font: 900;
+    font-size: 18px;
+}
+
+.navbar-nav .flex {
+    gap: 25px;
+}
+
+/* Main-text */
+
+
+.container-introduce {
+    padding: 150px 0;
+}
+
+.introduce-h1 h1{
+    font-size: 3.75em;
+    font-weight: 300;
+    color: rgba(55,65,81);
+    padding: 0;
+}
+
