@@ -17,9 +17,8 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 968px) {
-    .container {
-        width: 766px;
-        margin: auto;
-    }
+.underline {
+    text-decoration: underline;
 }
+
+

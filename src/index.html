@@ -29,21 +29,52 @@
     <section id="Introduce">
         <div class="container container-introduce">
             <div class="introduce-h1">
-                <h1>JSON Placeholder</h1>
+                <h1>{JSON} Placeholder</h1>
             </div>
-            <div class="introduce-h3">
-                <h3>
-                    Free fake API for testing and prototyping.
-                    Powered by JSON Server + LowDB. Tested with XV.
+            <div class="introduce-text">
+                <h3 class="introduce-h3 h3">
+                    Free fake API for testing and prototyping. <br>
+                    Powered by <span class="underline">JSON Server</span> + <span class="underline">LowDB</span>. Tested with <span class="underline">XV</span>.
                 </h3>
-                <p>
+                <p class="introduce-p">
                     Serving ~2 billion request each month.
                 </p>
             </div>
         </div>
 
-            <div clas></div>
+    <!-- Sponsors -->
+    <section id="sponsors">
+        <div class="container container-sponsors">
+            <h3 class="sponsors-h3">Sponsors</h3>
+            <p class="sponsors-p">JSONPlaceholder is supported by the following companies and <span class="underline">Sponsors</span> on GitHub, check them out <span>💖</span></p>
+            <div><img class="img-fluid img-1" src="img/mockend.svg" alt=""></div>
+            <div><img class="img-fluid img-2" src="img/sc.png" alt=""></div>
+            <p class="underline">Your company logo here</p>
+        </div>
     </section>
+
+    <!-- API -->
+    <section id="api">
+        <div class="container container-api">
+            <h3 class="api-h3">Try it</h3>
+            <p class="api-p">Run this code here, in a console or form any site:</p>
+            <div class="box api-box">
+                <div class="api-p-box">
+                    <span class="api-orange">fetch</span>(<span class="api-green">'https://jsonplaceholder.typicode.com/todos/1'</span>) <br>
+                    .<span class="api-orange">then</span>(response <span class="api-array">=></span> response. <span class="api-orange">json</span>()) <br>
+                    .<span class="api-orange">then</span>(json <span class="api-array">=></span> console.<span class="api-orange">log</span>(json)) <br>
+                </div>
+            </div>
+            <div class="buttom api-buttom">
+                Run Script
+            </div>
+            <div class="box api-box">
+                {}
+            </div>
+        </div>
+    </section>
+
+
     <script src="index.js"></script>
 </body>
 </html>
