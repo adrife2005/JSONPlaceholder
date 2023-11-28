@@ -90,3 +90,50 @@
 
 /* API */
 
+#api .api-h3 {
+    font-size: 2.25em;
+    font-weight: 450;
+    line-height: 3em;
+}
+.api-p-box {
+    line-height: 1.5;
+}
+
+.api-p {
+    padding-bottom: 20px;
+}
+
+.api-2 {
+    padding-left: 2.50em;
+}
+
+.api-3 {
+    padding-left: 2.50em;
+}
+
+button {
+    border-radius: 0.25em;
+    background-color: green;
+    color: green;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bolder;
+    margin: 20px 0;
+    border: none;
+}
+
+
+
+/* When to use */
+
+.restAPI-text {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 2.25em;
+}
+
+.restAPI-p {
+    line-height: 1.5;
+    padding-bottom: 1000px;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/static.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>JsonPlaceHolder</title>
+    <title>JSONPlaceHolder</title>
 </head>
 <body>
     <!-- navbar -->
@@ -56,24 +56,36 @@
     <!-- API -->
     <section id="api">
         <div class="container container-api">
-            <h3 class="api-h3">Try it</h3>
-            <p class="api-p">Run this code here, in a console or form any site:</p>
+            <h4 class="api-h3">Try it</h4>
+            <p class="api-p">Run this code here, in a console or from any site:</p>
             <div class="box api-box">
                 <div class="api-p-box">
-                    <span class="api-orange">fetch</span>(<span class="api-green">'https://jsonplaceholder.typicode.com/todos/1'</span>) <br>
-                    .<span class="api-orange">then</span>(response <span class="api-array">=></span> response. <span class="api-orange">json</span>()) <br>
-                    .<span class="api-orange">then</span>(json <span class="api-array">=></span> console.<span class="api-orange">log</span>(json)) <br>
+                    <div class="api-1"><span class="api-orange">fetch</span>(<span class="api-green">'https://jsonplaceholder.typicode.com/todos/1'</span>)</div>
+                    <div class="api-2">.<span class="api-orange">then</span>(response <span class="api-array">=></span> response. <span class="api-orange">json</span>())</div>
+                    <div class="api-3">.<span class="api-orange">then</span>(json <span class="api-array">=></span> console.<span class="api-orange">log</span>(json))</div>
                 </div>
             </div>
-            <div class="buttom api-buttom">
-                Run Script
+               <button class="api-buttom">Run Script</button>
+            <div class="box api-box-1">
+               <span class="prueba">{ }</span>
             </div>
-            <div class="box api-box">
-                {}
-            </div>
+            <div class="text-api"></div>
         </div>
     </section>
 
+    <!-- When to use -->
+    <section class="restAPI">
+        <div class="container restAPI-container">
+            <h2 class="restAPI-text">When to use</h2>
+            <div class="restAPI">
+                <p class="restAPI-p">JSONPlaceholder is a free online REST API that you can use
+                     <span class="bolder">whenever you need some fake data</span>. It can be in a README on GitHub, for a
+                     demo on CodeSandbox, in code examples on Stack Overflow, ...or simply to
+                     test things locally.
+                </p>
+            </div>
+        </div>
+    </section>
 
     <script src="index.js"></script>
 </body>
