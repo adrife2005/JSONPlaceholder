@@ -22,3 +22,25 @@ a {
 }
 
 
+.box {
+    border-radius: 0.5rem;
+    padding: 1.5em;
+    background-color: #2d2d2d;
+    color: #ccc;
+}
+
+.api-orange{
+    color: #f08d49;
+}
+
+.api-green {
+    color: #7ec699;
+}
+
+.api-array {
+    color: #67cdcc;
+}
+
+.bolder {
+    font-weight: bolder;
+}
