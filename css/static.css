@@ -5,6 +5,7 @@
 .container {
     width: 926px;
     margin: auto;
+    overflow: auto;
 }
 
 
@@ -27,6 +28,7 @@ a {
     padding: 1.5em;
     background-color: #2d2d2d;
     color: #ccc;
+    overflow: auto;
 }
 
 .api-orange{
@@ -44,3 +46,12 @@ a {
 .bolder {
     font-weight: bolder;
 }
+
+.pb-2 {
+    padding-bottom: 2em;
+}
+
+.mt-5 {
+    margin-top: 6em;
+}
+
