@@ -135,5 +135,65 @@ button {
 
 .restAPI-p {
     line-height: 1.5;
-    padding-bottom: 1000px;
+}
+
+/* Resources */
+
+.resources-p {
+    padding: 20px;
+    line-height: 2;
+    padding-right: 20px;
+}
+
+.resources-p .a {
+    padding-right: 75px;
+}
+
+.resources-p .e {
+    padding-right: 40px;
+}
+
+.resources-p .i {
+    padding-right: 62px;
+}
+
+.resources-p .o {
+    padding-right: 65px;
+}
+
+.resources-p .u {
+    padding-right: 75px;
+}
+
+.resources-p .c {
+    padding-right: 78px;
+}
+
+/* Routes */
+
+.routes-p {
+    padding: 20px;
+    line-height: 2;
+}
+
+.routes-p {
+    padding: 20px;
+    line-height: 2;
+    padding-right: 20px;
+}
+
+.routes-p .a {
+    padding-left: 75px;
+}
+
+.routes-p .e {
+    padding-left: 65px;
+}
+
+.routes-p .i {
+    padding-left: 57px;
+}
+
+.routes-p .o {
+    padding-left: 52px;
 }

@@ -22,7 +22,7 @@
                     <li class="navbar-link"><a href="#JSON">My JSON Server</a></li>
                 </ul>
             </div>
-        </div>
+        </div
     </nav>
 
     <!-- main-text -->
@@ -87,6 +87,62 @@
         </div>
     </section>
 
+    <!-- Resources -->
+    <section class="resources">
+        <div class="container">
+            <h2 class="restAPI-text">Resources</h2>
+            <p class="resources-main-p">JSONPlaceholder comes with a set of 6 common resources:</p>
+            <div class="resources-p">
+                <p><span class="underline a">/posts</span>        100  post</p>
+                <p><span class="underline e">/comments</span>     500  comments</p>
+                <p><span class="underline i">/albums</span>       100  albums</p>
+                <p><span class="underline o">/photos</span>       5000 photos</p>
+                <p><span class="underline u">/todos</span>        200  todos</p>
+                <p><span class="underline c">/users</span>        10   users</p>
+            </div>
+            <p class="resources-secondary-p">
+                <span class="bolder">Note:</span> Resources have relations. For example: posts have many
+                comments, albums have many photos, ...see <span class="underline">guide</span> for the full list.
+            </p>
+        </div>
+    </section>
+
+        <!-- Routes -->
+        <section class="routes">
+            <div class="container">
+                <h2 class="restAPI-text">Routes</h2>
+                <p class="routes-main-p">All HTTP methods are supported. You can use http or https for your requests.</p>
+                <div class="routes-p">
+                    <p>GET        <span class="underline a">/posts</span></p>
+                    <p>GET        <span class="underline a">/posts/1</span></p>
+                    <p>GET        <span class="underline a">/posts/1/comments</span></p>
+                    <p>GET        <span class="underline a">/comments?postId=1</span></p>
+                    <p>POST       <span class="underline e">/posts</span></p>
+                    <p>PUT        <span class="underline a">/posts/1</span></p>
+                    <p>PATCH      <span class="underline i">/posts/1</span></p>
+                    <p>DELETE     <span class="underline o">/posts/1</span></p>
+                </div>
+                <p class="routes-secondary-p">
+                    <span class="bolder">Note:</span> see <span class="underline">guide</span> for usage examples.
+                </p>
+            </div>
+        </section>
+
+        <!-- Use your own data -->
+        <section class="data">
+            <div class="container">
+                <h2 class="restAPI-text">Use your own data</h2>
+                <p class="data-p">With our sponsor <span class="underline">Mockend</span> and a simple GitHub repo, you can have your own fake online REST server in seconds.</p>
+            </div>
+        </section>
+
+        <!-- Navbar -->
+        <section class="nav">
+            <div class="container">
+                <p class="nav-p underline bolder pb-2 mt-5">You can sponsor this project (and others) on GitHub</p>
+                <p class="nav-sec-p">Coded and maintained with ❤️ by <span class="underline">typicode</span>  © 2022</p>
+            </div>
+        </section>
     <script src="index.js"></script>
 </body>
 </html>
